@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Calculator.cs" />
     <Compile Include="ForeachLoop\Student.cs" />
+    <Compile Include="ForLoop\frmFormLoop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForLoop\frmFormLoop.Designer.cs">
+      <DependentUpon>frmFormLoop.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmForEach.cs">
       <SubType>Form</SubType>
     </Compile>
