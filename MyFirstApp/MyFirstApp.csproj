@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -62,6 +63,9 @@
     </Compile>
     <Compile Include="formulario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ForLoop\frmFormLoop.resx">
+      <DependentUpon>frmFormLoop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmForEach.resx">
       <DependentUpon>frmForEach.cs</DependentUpon>
     </EmbeddedResource>
