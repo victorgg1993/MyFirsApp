@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MyFirstApp.Inheritance;
+using MyFirstApp.Interfaces;
 //using MyFirstApp.ForeachLoop;
 
 namespace MyFirstApp
@@ -19,7 +20,8 @@ namespace MyFirstApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new frmForEach()); // ha de ser el forEach
-            Application.Run(new frmTeacher());
+            //Application.Run(new frmTeacher());
+            Application.Run(new frmInterfaces());
         }
     }
 }
