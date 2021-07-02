@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClasses\Geek1.cs" />
+    <Compile Include="AbstractClasses\GeeksForGeeks.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="ForeachLoop\Student.cs" />
     <Compile Include="ForLoop\frmFormLoop.cs">
